@@ -1,13 +1,6 @@
 from tabulate import tabulate
-import numpy as np
-import matplotlib.pyplot as plt
 
-fig=plt.figure(figsize=(12,8), constrained_layout=True)
-gs=fig.add_gridspec(1,1)
-ax1=fig.add_subplot(gs[0,0])
 
-z=np.linspace(0,10,100)
-y=np.sqrt(z)
 
 
 
@@ -34,9 +27,6 @@ for N in range(n):
 
 head=["Iteración","Aproximación","Error(%)"]
 print(tabulate(data,headers=head,tablefmt="grid"))
-ax1.plot(z,y)
-
-plt.show()
 
 
 
