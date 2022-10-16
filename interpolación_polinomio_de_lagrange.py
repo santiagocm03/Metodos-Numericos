@@ -6,8 +6,8 @@ fig=plt.figure(figsize=(12,8), constrained_layout=True)
 gs=fig.add_gridspec(1,1)
 ax1=fig.add_subplot(gs[0,0])
 
-xi=np.array([0,0.2,0.3,0.4])
-fi=np.array([1,1.6,1.7,2])
+xi=np.array([0,0.4,0.8,0.15])
+fi=np.array([1,2,5,9])
 
 
 n=len(xi)
